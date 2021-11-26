@@ -1,0 +1,53 @@
+@media (max-width: 980px){
+    .container__card{
+        flex-direction: column;
+        justify-content: center;
+        max-width: 400px;
+        height: 60vh;
+        
+        .cube-img{
+            display: none;
+        }
+        .container__images{
+            display: none;
+        }
+        .container__images-mobile{
+            position: relative;
+            width: 100%;
+            height: 20vh;
+            .main-img-mobile{
+                position: absolute;
+                top: -100px;
+                left: 50%;
+                transform: translateX(-50%);
+                background-image: url(../images/illustration-woman-online-mobile.svg);
+                background-position: center;
+                background-repeat: no-repeat;
+                width: 100%;
+                height: 100%;
+                .bg-img-mobile{
+                    position: absolute;
+                    top: 80px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    background-image: url(../images/bg-pattern-mobile.svg);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+        .container__faq{
+            padding: 0 25px 25px 25px;
+            h2{
+                text-align: center;
+                font-size: 32px;
+                margin-bottom: 30px;
+            }
+            .faq{
+                margin-bottom: 20px;
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+@import "settings/colors";
+@import "components/faq";
+@import "components/mQ";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: $dark-blue;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient($soft-violet, $soft-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
