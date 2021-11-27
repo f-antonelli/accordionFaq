@@ -92,7 +92,7 @@
     flex-direction: column;
     justify-content: center;
     max-width: 400px;
-    height: 65vh; }
+    height: 75vh; }
     .container__card .cube-img {
       display: none; }
     .container__card .container__images {
@@ -100,10 +100,10 @@
     .container__card .container__images-mobile {
       position: relative;
       width: 100%;
-      height: 20vh; }
+      height: 18vh; }
       .container__card .container__images-mobile .main-img-mobile {
         position: absolute;
-        top: -110px;
+        top: -90px;
         left: 50%;
         transform: translateX(-50%);
         background-image: url(../images/illustration-woman-online-mobile.svg);
